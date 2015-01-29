@@ -24,6 +24,6 @@ for i = 1:size(eig_data,1)
     end
 end
 
-eps = state(ground)^2;
-P = abs(eps);
+eps = state(ground);
+P = abs(eps)^2;
 end
